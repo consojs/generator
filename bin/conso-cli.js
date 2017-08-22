@@ -14,10 +14,10 @@ class Generator {
         this.program
             .version(require('../package.json').version)
             .usage('init [option]')
-            .option('-v, --view <view>', 'set view dir', './view')
+            .option('-v, --view <viewDir>', 'set view dir', './view')
             .option('-e, --engine <engine>', 'set view engine', 'hbs')
-            .option('-p, --public <engine>', 'set public dir', './public')
-            .option('-r, --routes <routes>', 'set routes dir', './routes')
+            .option('-p, --public <publicDir>', 'set public dir', './public')
+            .option('-r, --routes <routesDir>', 'set routes dir', './routes')
             .option('-c, --config <filename>', 'set config filename', 'webConfig.json')
             .option('-f, --force', 'force to override directory')
             .option('    --git', 'add .gitignore');
