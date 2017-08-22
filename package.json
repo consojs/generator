@@ -1,0 +1,30 @@
+{
+  "name": "conso-generator",
+  "version": "1.0.0",
+  "description": "Conso' application generator",
+  "main": "bin/conso-cli.js",
+  "bin": {
+    "conso": "bin/conso-cli.js"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/consojs/generator.git"
+  },
+  "keywords": [
+    "conso",
+    "web",
+    "framework",
+    "generator",
+    "restful",
+    "router"
+  ],
+  "author": "tagee <tageecc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/consojs/generator/issues"
+  },
+  "homepage": "https://github.com/consojs/generator#readme"
+}
