@@ -30,7 +30,7 @@ $ npm install -g conso-generator
 ## Commands
 
 ```bash
-conso init [projectName]  Create a new conso project
+conso init [projectName] [Option]
 ```
 
 ## Quick Start
@@ -55,7 +55,7 @@ $ npm start
 
  Then Open `http://localhost:3000`
 
-## Command Line Options
+## Options
 This generator can also be further configured with the following command line flags.
 
     -V, --version               output the version number
