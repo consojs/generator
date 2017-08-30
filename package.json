@@ -1,6 +1,6 @@
 {
   "name": "conso-generator",
-  "version": "1.0.1",
+  "version": "1.1.2",
   "description": "Conso' application generator",
   "main": "bin/conso-cli.js",
   "bin": {
