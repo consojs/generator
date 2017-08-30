@@ -123,7 +123,7 @@ class Generator {
                 start: 'node app.js'
             },
             dependencies: {
-                "conso": require('../package.json').version,
+                "conso": '^1.0.0',
             }
         };
         switch (params.engine) {
