@@ -10,9 +10,9 @@ class Generator {
     constructor() {
         this.program = program;
         this.templateDir = resolve(__dirname, '..', 'templates');
-
         this.program
             .version(require('../package.json').version)
+            .name('conso')
             .usage('init [option]')
             .option('-v, --view <viewDir>', 'set view dir', './view')
             .option('-e, --engine <engine>', 'set view engine', 'hbs')
