@@ -7,7 +7,8 @@
     "conso": "bin/conso-cli.js"
   },
   "scripts": {
-    "test": "mocha --reporter spec --bail --check-leaks test/"
+    "test": "node_modules/.bin/_mocha --reporter nyan",
+    "lint": "node_modules/.bin/eslint bin test --fix"
   },
   "repository": {
     "type": "git",
@@ -31,5 +32,16 @@
     "chalk": "^2.1.0",
     "commander": "^2.11.0",
     "fs-extra": "^4.0.1"
+  },
+  "devDependencies": {
+    "codecov": "^2.3.0",
+    "eslint": "^4.5.0",
+    "istanbul": "^1.1.0-alpha.1",
+    "jsdoc": "^3.5.4",
+    "minami": "^1.2.3",
+    "mkdirp": "^0.5.1",
+    "mocha": "^3.5.0",
+    "rimraf": "^2.6.1",
+    "supertest": "^3.0.0"
   }
 }

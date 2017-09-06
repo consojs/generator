@@ -31,7 +31,7 @@ class Generator {
         this.program.parse(process.argv);
 
         if (!this.program.args.length) {
-            this.program.help()
+            this.program.help();
         }
     }
 
@@ -42,12 +42,12 @@ class Generator {
             process.stdin.once('data', val => {
                 resolve(val.trim());
             }).resume();
-        })
+        });
     }
 
     launchedFromCmd() {
         return process.platform === 'win32' &&
-            process.env._ === undefined
+            process.env._ === undefined;
     }
 
     async createApplication(projectName) {
@@ -150,7 +150,7 @@ class Generator {
                 break;
             case 'vash':
                 pkg.dependencies['vash'] = '^0.12.2';
-                break
+                break;
         }
         fse.outputFileSync(resolve(this.project_path, 'package.json'), JSON.stringify(pkg, null, 2));
         console.log(chalk.green(`   √ create : ${resolve(this.project_path, 'package.json')}`));
@@ -186,9 +186,9 @@ class Generator {
         console.log('   run the app:');
 
         if (this.launchedFromCmd()) {
-            console.log('     > SET DEBUG=%s:* & npm start', this.projectName)
+            console.log('     > SET DEBUG=%s:* & npm start', this.projectName);
         } else {
-            console.log('     $ DEBUG=%s:* npm start', this.projectName)
+            console.log('     $ DEBUG=%s:* npm start', this.projectName);
         }
 
         process.exit();

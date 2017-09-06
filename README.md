@@ -13,12 +13,12 @@ Fast, Configurable, Intelligent web framework for [node](http://nodejs.org).
 [npm-url]: https://npmjs.org/package/conso-generator
 [quality-image]: http://npm.packagequality.com/shield/conso-generator.svg
 [quality-url]: http://packagequality.com/#?package=conso-generator
-[travis-image]: https://img.shields.io/travis/tageecc/conso-generator.svg?style=flat-square
-[travis-url]: https://travis-ci.org/tageecc/conso-generator
-[codecov-image]: https://img.shields.io/codecov/c/github/tageecc/conso-generator.svg?style=flat-square
-[codecov-url]: https://codecov.io/gh/tageecc/conso-generator
-[david-image]: https://img.shields.io/david/tageecc/conso-generator.svg?style=flat-square
-[david-url]: https://david-dm.org/tageecc/conso-generator
+[travis-image]: https://img.shields.io/travis/consojs/conso-generator.svg?style=flat-square
+[travis-url]: https://travis-ci.org/consojs/conso-generator
+[codecov-image]: https://img.shields.io/codecov/c/github/consojs/conso-generator.svg?style=flat-square
+[codecov-url]: https://codecov.io/gh/consojs/conso-generator
+[david-image]: https://img.shields.io/david/consojs/conso-generator.svg?style=flat-square
+[david-url]: https://david-dm.org/consojs/conso-generator
 [download-image]: https://img.shields.io/npm/dm/conso-generator.svg?style=flat-square
 [download-url]: https://npmjs.org/package/conso-generator
 
